@@ -1,0 +1,185 @@
+body {
+  background-color: rgb(253, 251, 251);
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat, sans-serif, Arial;
+  border: solid 3px rgb(240, 102, 44);
+}
+
+h1 , img , li , a {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 1.04em;
+}
+
+.list_container div , .lado-esquerdo , .lado-direito {
+  background: radial-gradient(
+    circle, rgba(244, 103, 45, 1) 0%, rgba(247, 155, 75, 1) 100%
+  );
+}
+
+#cabecalho {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background: linear-gradient(
+    90deg, rgba(240, 102, 44, 1) 0%, rgba(246, 155, 75, 1) 100%
+  );
+  width: 100vw;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#minha_foto {
+  height: 120px;
+  margin-right: 15px;
+  padding: 0.5%;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+#minha_foto:hover {
+  transform: translate(-60px, 20px) scale(1.5);
+}
+
+main {
+  margin-top: 140px;
+}
+
+nav ul {
+  padding-top: 10px;
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0;
+}
+
+.nav-item {
+  margin: 0 15px;
+  padding: 10px;
+  background-color: rgb(203, 71, 39);
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-item:hover {
+  background-color: rgb(125, 24, 0);
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+}
+
+#titulo {
+  color: white;
+  position: absolute;
+  left: 40%;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 1.6em;
+  padding-top: 20px;
+}
+
+.list_container {
+  padding: 4%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list_container div {
+  padding: 20px 50px 50px;
+  border-radius: 15%;
+  color: white;
+  width: 20%;
+  text-align: center;
+  box-shadow: 10px 10px 25px grey;
+}
+
+.main_list {
+  list-style: none;
+  padding-top: 15px;
+  padding-inline-start: 0;
+}
+
+.main_list li {
+  padding: 5px 0;
+}
+
+.list_title a {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: rgb(203, 71, 39);
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 2px 7px;
+}
+
+.list_title a:hover {
+  background-color: rgb(125, 24, 0);
+}
+
+.lado-direito h3 {
+  font-size: 1.5em;
+}
+
+.lado-esquerdo , .lado-direito {
+  width: 40%;
+  display: inline-block;
+  margin: 30px;
+  padding: 0 30px 30px;
+  text-align: center;
+  vertical-align: top;
+  color: whitesmoke;
+  border-radius: 5%;
+  box-shadow: 10px 10px 25px grey;
+}
+
+.main_content_container p {
+  padding-top: 30px;
+}
+
+.lado-direito {
+  margin-top: 300px;
+}
+
+#rodape {
+  background-color: black;
+  color: white;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+caption {
+  padding: 20px 20px 10px;
+  background: rgb(240, 102, 44);
+  font-size: 1.1em;
+  font-weight: 600;
+  border-radius: 30px 30px 0 0;
+}
+
+table {
+  margin: auto;
+  padding: 0 100px 40px;
+  margin-bottom: 40px;
+  background: rgb(240, 102, 44);
+  text-align: center;
+  border-radius: 0 0 30px 30px;
+}
+
+tr td:nth-child( 1 ) {
+  font-weight: 500;
+}
+
+#rodape h4 {
+  margin: 0;
+}
